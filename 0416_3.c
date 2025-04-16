@@ -5,7 +5,7 @@ void main()
 
 	int a = 100, b = -200;
 
-	printf("»ó¼öÀÇ AND ¿¬»ê : %d \n", a && b);
-	printf("»ó¼öÀÇ OR ¿¬»ê : %d \n", a || b);
-	printf("»ó¼öÀÇ NOT ¿¬»ê : %d \n", !a);
+	printf("ìƒìˆ˜ì˜ AND ì—°ì‚° : %d \n", a && b);
+	printf("ìƒìˆ˜ì˜ OR ì—°ì‚° : %d \n", a || b);
+	printf("ìƒìˆ˜ì˜ NOT ì—°ì‚° : %d \n", !a);
 }
