@@ -4,7 +4,7 @@ void main()
 {
 	int a = 99;
 
-	printf("AND ¿¬»ê : %d \n", (a >= 100) && (a <= 200));
-	printf("OR ¿¬»ê : %d \n", (a >= 100) || (a <= 200));
-	printf("NOT ¿¬»ê : %d \n", !(a >= 100));
+	printf("AND ì—°ì‚° : %d \n", (a >= 100) && (a <= 200));
+	printf("OR ì—°ì‚° : %d \n", (a >= 100) || (a <= 200));
+	printf("NOT ì—°ì‚° : %d \n", !(a >= 100));
 }
