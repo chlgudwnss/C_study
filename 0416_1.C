@@ -3,12 +3,12 @@
 void main()
 {
 	int a = 100, b = 200;
-	printf("%d == %d´Â %dÀÌ´Ù. \n", a, b, a == b);
-	printf("%d != %d´Â %dÀÌ´Ù. \n", a, b, a != b);
-	printf("%d > %d´Â %dÀÌ´Ù. \n", a, b, a > b);
-	printf("%d < %d´Â %dÀÌ´Ù. \n", a, b, a < b);
-	printf("%d >= %d´Â %dÀÌ´Ù. \n", a, b, a >= b);
-	printf("%d <= %d´Â %dÀÌ´Ù. \n", a, b, a <= b);
+	printf("%d == %dëŠ” %dì´ë‹¤. \n", a, b, a == b);
+	printf("%d != %dëŠ” %dì´ë‹¤. \n", a, b, a != b);
+	printf("%d > %dëŠ” %dì´ë‹¤. \n", a, b, a > b);
+	printf("%d < %dëŠ” %dì´ë‹¤. \n", a, b, a < b);
+	printf("%d >= %dëŠ” %dì´ë‹¤. \n", a, b, a >= b);
+	printf("%d <= %dëŠ” %dì´ë‹¤. \n", a, b, a <= b);
 
-	printf("%d = %d´Â %dÀÌ´Ù. \n", a, b, a = b);
+	printf("%d = %dëŠ” %dì´ë‹¤. \n", a, b, a = b);
 }
