@@ -1,0 +1,24 @@
+void setup()
+{
+  	for(int pin = 2; pin <= 7; pin++) 
+    {
+    pinMode(pin, OUTPUT);
+  }
+}
+
+void loop() 
+{
+  	for(int pin = 2; pin <= 7; pin++)
+    {
+    digitalWrite(pin, HIGH);
+    delay(500);
+    digitalWrite(pin, LOW);
+  }
+  
+  	for(int pin = 6; pin >= 2; pin--) 
+  {
+    digitalWrite(pin, HIGH);
+    delay(500);
+    digitalWrite(pin, LOW);
+  }
+}
